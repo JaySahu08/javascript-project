@@ -37,6 +37,7 @@ body{
     background: #ebfffc;
     border-radius: 50%;
     cursor: pointer;
+    padding: 0 25px;
     font-size: 22px;
     transition: all 0.3s ease;
 }
@@ -53,4 +54,27 @@ body{
 .weather h2{
     font-size: 45px;
     font-weight: 400;
+}
+.details{
+    display: flex;
+    align-Items: center;
+    justify-content: space-between;
+    padding : 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items : center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity , .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+.weather{
+    display: none;
 }
